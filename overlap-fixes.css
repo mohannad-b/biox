@@ -60,3 +60,60 @@
 #slide-6 .quote-strip .logo-mark{display:grid;place-items:center;width:78px;height:54px;border-left:1px solid var(--line);padding-left:24px}
 #slide-6 .quote-strip .logo-mark img{display:block;max-width:76px;max-height:44px;object-fit:contain}
 #slide-6 .quote-strip em{font-size:15px;max-width:120px}
+
+/* Slide 7, 8, and 9 source-match refinements. */
+#slide-7 .title-left{top:120px;width:545px}
+#slide-7 .title h2{font-size:55px;line-height:1.02;margin-bottom:26px}
+#slide-7 .title p{font-size:20px;line-height:1.28;margin-bottom:18px}
+#slide-7 .title strong{font-size:20px}
+#slide-7 .market-card{right:56px;top:98px;width:858px;height:362px;padding:28px 34px}
+#slide-7 .market-card h3{font-size:20px;letter-spacing:1px}
+#slide-7 .mini-chart{left:34px;top:72px;width:420px;height:260px}
+#slide-7 .secretome{right:40px;top:72px;width:330px}
+#slide-7 .divider-title.market{top:496px;left:570px;font-size:18px;letter-spacing:4px}
+#slide-7 .application-row{left:56px;right:56px;top:508px;height:240px;padding:30px 18px}
+#slide-7 .application-row .round{width:58px;height:58px;margin-bottom:16px}
+#slide-7 .application-row b{font-size:15px;line-height:1.2}
+#slide-7 .application-row p{font-size:14px;line-height:1.33}
+#slide-7 .category-bar{top:778px;height:82px}
+#slide-7 .dark-footer{left:0;right:0;bottom:0;height:140px;border-radius:0;padding:0 58px 0 220px;gap:28px}
+#slide-7 .dark-footer b{font-size:22px;min-width:360px}
+#slide-7 .dark-footer span{font-size:15px;padding-left:24px}
+#slide-8 .product-title{top:106px;width:900px}
+#slide-8 .product-title h2{font-size:50px;line-height:1.08;margin-bottom:20px}
+#slide-8 .product-title p{font-size:18px;line-height:1.36}
+#slide-8 .asset-card{right:58px;top:78px;width:460px;height:204px;padding:26px}
+#slide-8 .asset-card .round{width:78px;height:78px;font-size:31px}
+#slide-8 .asset-card b{font-size:20px;line-height:1.25}
+#slide-8 .asset-card span{font-size:17px;margin:8px 0}
+#slide-8 .product-cards{left:55px;right:55px;top:315px;gap:8px}
+#slide-8 .product-cards article{height:405px;padding:86px 25px 22px}
+#slide-8 .product-cards h3{font-size:27px;line-height:1.02;margin:0 0 26px}
+#slide-8 .product-cards b{font-size:14px;letter-spacing:1px}
+#slide-8 .product-cards p{font-size:16px;line-height:1.35}
+#slide-8 .product-cards footer{bottom:22px;font-size:12px;line-height:1.28}
+#slide-8 .product-strip{top:744px;height:104px}
+#slide-8 .product-strip article{padding:22px 24px}
+#slide-8 .dark-footer{left:0;right:0;bottom:0;height:154px;border-radius:0;padding:0 164px;gap:48px}
+#slide-8 .dark-footer b{font-size:22px;min-width:360px}
+#slide-8 .dark-footer span{font-size:15px;padding-left:34px}
+#slide-9 .title-left{top:112px;width:710px}
+#slide-9 .title h2{font-size:56px;line-height:1.02;margin-bottom:24px}
+#slide-9 .title p{font-size:19px;line-height:1.25}
+#slide-9 .global-card{right:56px;top:92px;width:676px;height:224px;padding:34px 36px 34px 162px}
+#slide-9 .global-card b{font-size:21px}
+#slide-9 .global-card p{font-size:15px;line-height:1.35;margin:0}
+#slide-9 .global-card>div:last-child{grid-template-columns:104px 1fr 1.15fr 1fr;gap:16px;margin-top:30px}
+#slide-9 .global-card span{font-size:15px;line-height:1.35}
+#slide-9 .phase-row{left:53px;right:53px;top:378px;height:405px}
+#slide-9 .phase-row article{height:405px;padding:28px 18px 88px}
+#slide-9 .phase-row h3{font-size:16px;margin-left:82px}
+#slide-9 .phase-row .round{width:70px;height:70px;margin:18px auto;font-size:31px}
+#slide-9 .phase-row b{font-size:15px;line-height:1.2}
+#slide-9 .phase-row p{font-size:14px}
+#slide-9 .phase-row ul{font-size:13px;line-height:1.35;padding-left:18px;margin-top:18px}
+#slide-9 .phase-row footer{bottom:14px;font-size:13px;line-height:1.25}
+#slide-9 .vision{left:0;right:0;bottom:0;height:207px;border-radius:0;padding-left:160px;grid-template-columns:1.8fr repeat(4,1fr)}
+#slide-9 .vision b{font-size:22px;line-height:1.25}
+#slide-9 .vision p{left:194px;top:100px;font-size:16px}
+#slide-9 .vision span{font-size:15px}
