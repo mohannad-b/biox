@@ -1,22 +1,22 @@
-const sections = [...document.querySelectorAll("main section[id]")];
-const navLinks = [...document.querySelectorAll(".nav a")];
+const slides = [...document.querySelectorAll(".slide")];
+const navLinks = [...document.querySelectorAll(".slide-nav a")];
 
 const observer = new IntersectionObserver(
   (entries) => {
-    const visible = entries
+    const current = entries
       .filter((entry) => entry.isIntersecting)
       .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-    if (!visible) return;
+    if (!current) return;
 
     navLinks.forEach((link) => {
-      link.classList.toggle("active", link.hash === `#${visible.target.id}`);
+      link.classList.toggle("active", link.hash === `#${current.target.id}`);
     });
   },
   {
-    rootMargin: "-30% 0px -55% 0px",
-    threshold: [0.15, 0.4, 0.7],
+    rootMargin: "-25% 0px -60% 0px",
+    threshold: [0.2, 0.45, 0.7],
   }
 );
 
-sections.forEach((section) => observer.observe(section));
+slides.forEach((slide) => observer.observe(slide));
