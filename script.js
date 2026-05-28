@@ -1,3 +1,8 @@
+const overlapFixes = document.createElement("link");
+overlapFixes.rel = "stylesheet";
+overlapFixes.href = "overlap-fixes.css";
+document.head.appendChild(overlapFixes);
+
 const slides = [...document.querySelectorAll(".slide")];
 const links = [...document.querySelectorAll(".site-nav nav a")];
 
