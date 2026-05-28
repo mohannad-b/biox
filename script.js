@@ -1,5 +1,5 @@
 const slides = [...document.querySelectorAll(".slide")];
-const navLinks = [...document.querySelectorAll(".slide-nav a")];
+const links = [...document.querySelectorAll(".site-nav nav a")];
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -9,14 +9,11 @@ const observer = new IntersectionObserver(
 
     if (!current) return;
 
-    navLinks.forEach((link) => {
+    links.forEach((link) => {
       link.classList.toggle("active", link.hash === `#${current.target.id}`);
     });
   },
-  {
-    rootMargin: "-25% 0px -60% 0px",
-    threshold: [0.2, 0.45, 0.7],
-  }
+  { rootMargin: "-30% 0px -55% 0px", threshold: [0.15, 0.4, 0.7] }
 );
 
 slides.forEach((slide) => observer.observe(slide));
